@@ -1,0 +1,22 @@
+<div class="app-form">
+  <h1>{{ block.settings.form_title }}</h1>
+  <button class="app-btn">Click</button>
+</div>
+
+
+{% schema %}
+{
+  "name": "App Registration Form",
+  "target": "section",
+  "stylesheet": "app-form.css",
+  "javascript": "app-form.js",
+  "class": "form-app-class",
+  "settings": [
+    {
+      "type": "text",
+      "id": "form_title",
+      "label": "App Form Title"
+    }
+  ]
+}
+{% endschema %}

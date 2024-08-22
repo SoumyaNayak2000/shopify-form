@@ -1,0 +1,30 @@
+
+  .center-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .menu-link {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  .menu-link h1 {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .menu-link.active {
+    font-weight: bold;
+    color: #007bff; /* Change to your active link color */
+  }
+  

@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "40192fcf890e58d9382600ec07932581"
+name = "form-app"
+handle = "form-app-24"
+application_url = "https://watch-south-recover-organizer.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "nyasa-production-studio.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products"
+
+[auth]
+redirect_urls = [
+  "https://watch-south-recover-organizer.trycloudflare.com/auth/callback",
+  "https://watch-south-recover-organizer.trycloudflare.com/auth/shopify/callback",
+  "https://watch-south-recover-organizer.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
